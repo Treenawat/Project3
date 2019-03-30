@@ -40,7 +40,6 @@ public class MesoAscii extends MesoAsciiAbstract {
 		//return average[]
 		return average;
 		
-	}
-	
+	}	
 	
 }

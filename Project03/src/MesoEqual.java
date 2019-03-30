@@ -8,4 +8,9 @@ import java.io.FileReader;
 public class MesoEqual {
 	String stID;
 	
+	//this.
+	public MesoEqual(String stID) {
+		this.stID = stID;
+	}
+	
 }

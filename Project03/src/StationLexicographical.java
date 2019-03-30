@@ -23,6 +23,7 @@ public class StationLexicographical extends MesoSortedAbstract {
 	//Create sortedMap
 	@Override
 	Map<String, Integer> sortedMap(HashMap<String, Integer> unsortedMap) {
+		//setUpfirst
 		ArrayList<String> newWord = new ArrayList<String>();
 		Set<Map.Entry<String, Integer>> unSorted = AsciiVal.entrySet();
 		Iterator<Entry<String, Integer>> iterate = unSorted.iterator();

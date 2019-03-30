@@ -42,7 +42,7 @@ public class StationLexicographical extends MesoSortedAbstract {
 		//run through for loop and add them into hashmap sorted
 		for(int j = 0; j < newWord.size(); j++){
 			String stid = newWord.get(j);
-			Integer ascii = unsortedMap.get(stid);
+			int ascii = unsortedMap.get(stid);
 			sorted.put(stid, ascii);	
 		}
 		return sorted;

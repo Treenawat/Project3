@@ -11,4 +11,13 @@ public class StationLexicographical extends MesoSortedAbstract {
 	//create hashmap according to main (AsciiVal)
 	HashMap<String, Integer> AsciiVal;
 	
+	//Sorted Map
+	public StationLexicographical(HashMap<String, Integer> AsciiVal) {
+		this.AsciiVal = AsciiVal;
+		Map<String, Integer> sortedMap = sortedMap(AsciiVal);
+		for (String StID : sortedMap.keySet()) {
+		    System.out.println(StID + " " + sortedMap.get(StID));		    
+		}
+	}
+	
 }

@@ -27,6 +27,7 @@ public class StationLexicographical extends MesoSortedAbstract {
 		Set<Map.Entry<String, Integer>> unSorted = AsciiVal.entrySet();
 		Iterator<Entry<String, Integer>> iterate = unSorted.iterator();
 		
+		//run thought unsortedmap and add them to newWord
 		for(int i = 0; i < unsortedMap.size(); i++){
 			newWord.add(iterate.next().getKey());
 		}

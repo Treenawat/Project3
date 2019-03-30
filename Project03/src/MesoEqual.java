@@ -73,7 +73,7 @@ public class MesoEqual {
 			//Find average and compare them to word "Fair"
 			double mean = 0;
 			for (int j = 0; j < letter.length; j++) {
-				mean += letter2[i];
+				mean += letter2[j];
 			}
 			mean = mean/letter2.length;
 

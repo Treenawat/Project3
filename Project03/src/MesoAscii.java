@@ -21,6 +21,13 @@ public class MesoAscii extends MesoAsciiAbstract {
 		}
 		mean = mean/letter.length;
 		
+		//Take out the first digit of number by spliting by . and then take the first digit number
+		String[] split = String.valueOf(mean).split("\\.");
+		int[] split2 = new int[2];
+		split2[0]=Integer.parseInt(split[0]);
+		split2[1]=Integer.parseInt(split[1]); 
+		int firstDigit = Integer.parseInt(Integer.toString(split2[1]).substring(0, 1));
+		
 	}
 	
 	

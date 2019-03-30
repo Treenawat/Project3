@@ -13,4 +13,8 @@ public class MesoEqual {
 		this.stID = stID;
 	}
 	
+	//create hashmap according to main (calAsciiEqual)
+	public HashMap<String, Integer> calAsciiEqual() throws IOException{
+		
+	}
 }

@@ -36,6 +36,8 @@ public class StationLexicographical extends MesoSortedAbstract {
 		//Use collection to sorted newWord
 		Collections.sort(newWord);
 		Map<String, Integer> sorted = new TreeMap<String, Integer>();
+
+		//run through for loop and add them into hashmap sorted
 		for(int j = 0; j < newWord.size(); j++){
 			String stid = newWord.get(j);
 			Integer ascii = unsortedMap.get(stid);

@@ -1,3 +1,3 @@
-public class StationLexicographical {
+public class StationLexicographical extends MesoSortedAbstract {
 	
 }

@@ -70,7 +70,7 @@ public class MesoEqual {
 			letter2[2] = StID.charAt(2);
 			letter2[3] = StID.charAt(3);
 			
-			//find average and set floor and ceiling
+			//Find average and compare them to word "Fair"
 			double mean = 0;
 			for (int j = 0; j < letter.length; j++) {
 				mean += letter2[i];

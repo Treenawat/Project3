@@ -16,6 +16,7 @@ public class StationLexicographical extends MesoSortedAbstract {
 		this.AsciiVal = AsciiVal;
 		//use sortedMap on AsciiVal
 		Map<String, Integer> sortedMap = sortedMap(AsciiVal);
+		//use Hashmap loop and print out the key and value
 		for (String StID : sortedMap.keySet()) {
 		    System.out.println(StID + " " + sortedMap.get(StID));		    
 		}

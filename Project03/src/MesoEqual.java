@@ -62,8 +62,7 @@ public class MesoEqual {
 		}
 		
 		//Add word with same Average from Mesonet with word "Fair" to hashmap sameAverage
-		for(int i = 0; i < mesonetArray.size(); ++i)
-		{
+		for(int i = 0; i < mesonetArray.size(); ++i){
 			String StID = mesonetArray.get(i);
 			int[] letter2 = new int[4];
 			letter2[0] = StID.charAt(0);
@@ -92,8 +91,7 @@ public class MesoEqual {
 				average = (int) Math.floor(mean);
 			}
 			
-			if(average == StIDAscii)
-			{
+			if(average == StIDAscii){
 				sameAverage.put(StID, average);
 			}
 		}

@@ -32,6 +32,7 @@ public class StationLexicographical extends MesoSortedAbstract {
 			newWord.add(iterate.next().getKey());
 		}
 		
+		//Use collection to sorted newWord
 		Collections.sort(newWord);
 		Map<String, Integer> sorted = new TreeMap<String, Integer>();
 		for(int j = 0; j < newWord.size(); j++){

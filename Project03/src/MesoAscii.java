@@ -28,6 +28,18 @@ public class MesoAscii extends MesoAsciiAbstract {
 		split2[1]=Integer.parseInt(split[1]); 
 		int firstDigit = Integer.parseInt(Integer.toString(split2[1]).substring(0, 1));
 		
+		//If first Digit is >= 5, then use ceil, else use floor
+		int average = 0;
+		if (firstDigit >= 5) {
+			average = (int) Math.ceil(mean);
+		}
+		else {
+			average = (int) Math.floor(mean);
+		}
+		
+		//return average[]
+		return average;
+		
 	}
 	
 	
